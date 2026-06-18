@@ -3,20 +3,92 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trabalho 1</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Quem sou eu - Carlos</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f7f6;
+            color: #333;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #007bff;
+            color: white;
+            text-align: center;
+            padding: 2rem 1rem;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        header p {
+            margin: 0.5rem 0 0;
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+        .container {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+        section {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            margin-bottom: 1.5rem;
+        }
+        h2 {
+            color: #007bff;
+            border-bottom: 2px solid #f4f7f6;
+            padding-bottom: 0.5rem;
+            margin-top: 0;
+        }
+        ul {
+            padding-left: 1.2rem;
+        }
+        li {
+            margin-bottom: 0.5rem;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            color: #777;
+            font-size: 0.9rem;
+            margin-top: 2rem;
+        }
+    </style>
 </head>
 <body>
 
     <header>
-        <h1>Meu Primeiro Projeto</h1>
+        <h1>Olá, eu sou o Carlos!</h1>
+        <p>Bem-vindo ao meu site pessoal</p>
     </header>
 
-    <main>
-        <p>Este é o conteúdo principal do site.</p>
-        <button id="meuBotao">Clique Aqui</button>
-    </main>
+    <div class="container">
+        
+        <section id="sobre">
+            <h2>Sobre Mim</h2>
+            <p>Atualmente, sou estudante e estou cursando a <strong>1ª série do Ensino Médio</strong> no <strong>Colégio Santos Dumont</strong>. Estou focado nos meus estudos e em aprender coisas novas todos os dias!</p>
+        </section>
 
-    <script src="main.js"></script>
+        <section id="hobbies">
+            <h2>Meus Interesses & Hobbies</h2>
+            <p>Nas minhas horas vagas, uma das coisas que mais curto fazer é:</p>
+            <ul>
+                <li>⚽ <strong>Jogar futebol:</strong> Adoro entrar em campo, jogar com os amigos e acompanhar os jogos.</li>
+                <li>📚 <strong>Estudar:</strong> Dedico parte do meu tempo para focar nas matérias da escola e construir o meu futuro.</li>
+            </ul>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Carlos. Desenvolvido com HTML e CSS.</p>
+    </footer>
+
 </body>
 </html>
